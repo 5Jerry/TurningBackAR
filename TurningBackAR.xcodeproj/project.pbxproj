@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		C4D2EFC02C3920C100E6A142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2EFBF2C3920C100E6A142 /* AppDelegate.swift */; };
 		C4D2EFC22C3920C100E6A142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2EFC12C3920C100E6A142 /* ContentView.swift */; };
-		C4D2EFC42C3920C100E6A142 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C4D2EFC32C3920C100E6A142 /* Experience.rcproject */; };
 		C4D2EFC62C3920C200E6A142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D2EFC52C3920C200E6A142 /* Assets.xcassets */; };
 		C4D2EFC92C3920C200E6A142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D2EFC82C3920C200E6A142 /* Preview Assets.xcassets */; };
+		C4D2EFD32C39281100E6A142 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C4D2EFD22C39281100E6A142 /* Experience.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4D2EFBC2C3920C100E6A142 /* TurningBackAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurningBackAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D2EFBF2C3920C100E6A142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4D2EFC12C3920C100E6A142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C4D2EFC32C3920C100E6A142 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		C4D2EFC52C3920C200E6A142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D2EFC82C3920C200E6A142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4D2EFD22C39281100E6A142 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +53,11 @@
 		C4D2EFBE2C3920C100E6A142 /* TurningBackAR */ = {
 			isa = PBXGroup;
 			children = (
+				C4D2EFCF2C39261500E6A142 /* ViewModel */,
 				C4D2EFBF2C3920C100E6A142 /* AppDelegate.swift */,
 				C4D2EFC12C3920C100E6A142 /* ContentView.swift */,
-				C4D2EFC32C3920C100E6A142 /* Experience.rcproject */,
 				C4D2EFC52C3920C200E6A142 /* Assets.xcassets */,
+				C4D2EFD22C39281100E6A142 /* Experience.rcproject */,
 				C4D2EFC72C3920C200E6A142 /* Preview Content */,
 			);
 			path = TurningBackAR;
@@ -68,6 +69,13 @@
 				C4D2EFC82C3920C200E6A142 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4D2EFCF2C39261500E6A142 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +150,7 @@
 			files = (
 				C4D2EFC22C3920C100E6A142 /* ContentView.swift in Sources */,
 				C4D2EFC02C3920C100E6A142 /* AppDelegate.swift in Sources */,
-				C4D2EFC42C3920C100E6A142 /* Experience.rcproject in Sources */,
+				C4D2EFD32C39281100E6A142 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
